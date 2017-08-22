@@ -53,12 +53,12 @@ $ python3 hello_world.py  # 运行 hello_world.py
 ---
 ## 如何学习Python
 - 官方文档 (推荐使用[Zeal](https://zealdocs.org/)下载文档到本地方便随时查阅):
-	- [**The Python Tutorial**](https://docs.python.org/3/tutorial/) 
+	- [**The Python Tutorial**](https://docs.python.org/3/tutorial/) _**([中文翻译](http://www.pythondoc.com/pythontutorial3/))**_
 	- [The Python Language Reference](https://docs.python.org/3.6/reference/index.html)
 	- [The Python Standard Library](https://docs.python.org/3/library/index.html)
 - `help` 命令: 查看某个函数的帮助说明, 如 `help(print)`
 - `dir` 命令: 查看某个包或者对象的所有方法, 如 `dir(str)`
-- 其他推荐的教程: [菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html), [Effective Python(中文翻译)](https://github.com/guoruibiao/Effective-Python)
+- 其他推荐的教程: _[A Byte of Python(简明Python教程)](https://www.gitbook.com/book/lenkimo/byte-of-python-chinese-edition/details), [菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html), [Effective Python(中文翻译)](https://github.com/guoruibiao/Effective-Python),_
 
 ---
 <!-- *page_number: false -->
