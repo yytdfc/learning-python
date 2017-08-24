@@ -292,6 +292,9 @@ False
 False
 ```
 ---
+### 格式化字符串
+
+---
 ### 列表 `list`
 ```py
 >>> num_list = [4, 5, 0]
@@ -480,9 +483,17 @@ for i in iter:
 ```
 ---
 ### `range`对象
-`range()`函数返回有序列表的`range`对象, 可作为迭代器
+- `range()`函数返回有序列表的`range`对象, 可作为迭代器
+- `range()`函数的构造与切片的索引类似
 ```py
-
+>>> list(range(5))
+[0, 1, 2, 3, 4]
+>>> list(range(2, 5))
+[2, 3, 4]
+>>> list(range(1, 8, 2))
+[1, 3, 5, 7]
+>>> list(range(7, 3, -1))
+[7, 6, 5, 4]
 ```
 ---
 ### 迭代器
@@ -530,7 +541,7 @@ StopIteration
 ## <center>6. 函数
 ---
 ### 函数定义 `def`
-```
+```py
 def f1(x):
     return x + 1  # return 返回值
 
@@ -626,8 +637,6 @@ class Country:
 canada = Country("North America", "Trudeau", 35344962)
 ```
 ---
-built-in的方法:
----
 <!-- *page_number: false -->
 ## <center>8. 错误和异常
 ---
@@ -643,6 +652,7 @@ built-in的方法:
 'return from finally'
 ```
 ---
+### _注意:_
 - 永远不要使用 except: 语句来捕获所有异常, 也不要捕获 Exception 或者 StandardError，捕获异常时尽量指明具体异常。
 - except: 永远不用
 - except FileException: 在有针对行的代码中，扑捉特定异常。但是，需要考虑全面性，如果有为捕捉的异常，会导致程序退出，需要考虑所带来的后果；
@@ -658,6 +668,8 @@ built-in的方法:
 ---
 ## 文件
 ```py
+with open('text.txt','r') as f:  # with语块是
+	f.readlines()
 ```
 ---
 ## 系统
@@ -673,18 +685,4 @@ built-in的方法:
 <!-- *page_number: false -->
 ## <center>_**Thanks**_
 
-
----
-### `with`
-```py
-with A() as a, B() as b:
-    suite
-    
-with A() as a:
-    with B() as b:
-        suite
-        
-with open('text.txt','r') as f:
-	f.readlines()
-```
 
