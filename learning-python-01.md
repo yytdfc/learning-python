@@ -67,22 +67,7 @@ JetBrains出品
 >2015年~2020年为过渡期, 保持Python2的支持更新, 2020年后全面支持Python3, 放弃Python2的维护更新.
 参加Python3 宣言的包括:
 <center><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Cython-logo.svg/220px-Cython-logo.svg.png" height=60>
-<img src="http://www.python3statement.org/assets/ipython.png" height=60> 
-<img src="http://www.python3statement.org/assets/jupyter.png" height=60> 
-<img src="http://www.python3statement.org/assets/pandas.png" height=60>
-<img src="http://www.python3statement.org/assets/matplotlib.png" height=60>
-<img src="http://www.python3statement.org/assets/axelrod.png" height=60>
-<img src="http://www.python3statement.org/assets/skbio.png" height=60>
-<br>
-<img src="http://www.python3statement.org/assets/sympy.png" height=60>
-<img src="http://www.python3statement.org/assets/biopython.png" height=60>
-<img src="http://www.python3statement.org/assets/pymc3.png" height=60>
-<img src="http://www.python3statement.org/assets/sunpy.png" height=60>
-<img src="http://www.python3statement.org/assets/osbrain.png" height=60>
-<img src="http://www.python3statement.org/assets/pystan.png" height=60>
-<img src="http://www.python3statement.org/assets/astropy.png" height=60>
-<img src="http://www.python3statement.org/assets/pymeasure.png" height=60>
-... ...
+<img src="http://www.python3statement.org/assets/ipython.png" height=60> <img src="http://www.python3statement.org/assets/jupyter.png" height=60> <img src="http://www.python3statement.org/assets/pandas.png" height=60> <img src="http://www.python3statement.org/assets/matplotlib.png" height=60> <img src="http://www.python3statement.org/assets/axelrod.png" height=60> <img src="http://www.python3statement.org/assets/skbio.png" height=60> <img src="http://www.python3statement.org/assets/sympy.png" height=60> <img src="http://www.python3statement.org/assets/biopython.png" height=60> <img src="http://www.python3statement.org/assets/pymc3.png" height=60> <img src="http://www.python3statement.org/assets/sunpy.png" height=60> <img src="http://www.python3statement.org/assets/osbrain.png" height=60> <img src="http://www.python3statement.org/assets/pystan.png" height=60> <img src="http://www.python3statement.org/assets/astropy.png" height=60> <img src="http://www.python3statement.org/assets/pymeasure.png" height=60> ... ...
 
 ---
 ### Hello World
